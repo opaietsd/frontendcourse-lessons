@@ -1,0 +1,38 @@
+body{
+    margin-top: 15% auto auto auto ;
+    text-align: center;
+    overflow-y: hidden;
+}
+button{
+    background-color: rgb(33, 144, 33);
+    color: white;
+    height: 25px;
+    width: 225px ;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.651)
+}
+form{
+    height: 200px;
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.142);
+    border: 1px solid rgba(128, 128, 128, 0.158);
+    border-radius: 5px;
+    display: inline-block;
+}
+input{
+    height: 25px;
+    width: 255px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.651)
+}
+li{
+    display: inline-block;
+}
+#new{
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.142);
+    border: 1px solid rgba(128, 128, 128, 0.158);
+    display: inline-block;
+
+}
