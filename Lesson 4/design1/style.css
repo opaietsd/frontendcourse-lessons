@@ -1,6 +1,7 @@
 body{
     margin-top: 15% auto auto auto ;
     text-align: center;
+    font-family: serif;
     overflow-y: hidden;
 }
 button{
@@ -33,6 +34,11 @@ li{
     width: 300px;
     background-color: rgba(128, 128, 128, 0.142);
     border: 1px solid rgba(128, 128, 128, 0.158);
+    display: block;
+    margin: 20px;
     display: inline-block;
-
+    text-align: center;
+}
+a{
+    color: rgba(0, 0, 255, 0.719);
 }
