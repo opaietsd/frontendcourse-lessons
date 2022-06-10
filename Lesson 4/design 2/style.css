@@ -1,0 +1,68 @@
+body{
+    width: 50vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.082);
+    overflow-y: hidden;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    font-size: larger;
+    position: relative;
+    left: 20%;
+    top: 20%;
+
+}
+form{
+    margin: 10%;
+    text-align: center;
+    height: 300px;
+    width: 330px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.158);
+    border-radius: 5px;
+    position: relative;
+    left: 110% ;
+    bottom: 10%;
+}
+input{
+    width: 300px;
+    height: 40px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.738);
+}
+#log{
+    width: 300px;
+    height: 37px;
+    margin-top: 12px;
+    border: 1px solid rgba(1, 1, 168, 0.927);
+    border-radius: 5px;
+    background-color: rgba(1, 1, 168, 0.886);
+    color: white;
+}
+#pass{
+    margin: 12px;
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.588);
+}
+a{
+    color: blue;
+    font-weight: bold;
+}
+button{
+    width: 150px;
+    height: 40px;
+    margin-top: 11px;
+    border: 1px solid rgba(0, 128, 0, 0.9);
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.9);
+}
+footer{
+    position: relative;
+    left: 124%;
+    bottom: 15%;
+    font-size: smaller;
+}
