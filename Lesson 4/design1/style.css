@@ -1,10 +1,11 @@
-body{
+.page{
     margin-top: 15% auto auto auto ;
     text-align: center;
     font-family: serif;
     overflow-y: hidden;
 }
-button{
+
+.button{
     background-color: rgb(33, 144, 33);
     color: white;
     height: 25px;
@@ -13,7 +14,7 @@ button{
     border-radius: 5px;
     border: 1px solid rgba(128, 128, 128, 0.651)
 }
-form{
+.page__form{
     height: 200px;
     width: 300px;
     background-color: rgba(128, 128, 128, 0.142);
@@ -21,16 +22,20 @@ form{
     border-radius: 5px;
     display: inline-block;
 }
-input{
+.page__input{
     height: 25px;
     width: 255px;
     border-radius: 5px;
     border: 1px solid rgba(128, 128, 128, 0.651)
 }
-li{
+.unordered{
+    list-style: none;
+}
+
+.list{
     display: inline-block;
 }
-#new{
+.link_to_create_an_account{
     width: 300px;
     background-color: rgba(128, 128, 128, 0.142);
     border: 1px solid rgba(128, 128, 128, 0.158);
@@ -39,6 +44,6 @@ li{
     display: inline-block;
     text-align: center;
 }
-a{
+.links{
     color: rgba(0, 0, 255, 0.719);
 }
