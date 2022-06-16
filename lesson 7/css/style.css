@@ -1,0 +1,33 @@
+body{
+   margin: 0px;
+}
+.page{
+    background-color: rgba(203, 201, 201, 0.412);
+    margin: 0px;
+    display: inline-block;
+    width: 99%;
+    height: 120vh;
+    font-family: sans-serif;
+}
+.page__box{
+    width: 15%;
+    height: 280px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    float: left;
+}
+.box__image{
+    width: 90%;
+    height: 150px;
+}
+.box__fruit{
+    color: gray;
+    font-size: 120%;
+}
+.box__price{
+    font-weight: bold;
+    font-size: 150%;
+    margin-top: -10px;
+}
