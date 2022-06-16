@@ -16,7 +16,6 @@ body{
     display: inline-block;
     text-align: center;
     background-color: white;
-    float: left;
 }
 .box__image{
     width: 90%;
