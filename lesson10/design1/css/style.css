@@ -173,5 +173,37 @@ body{
 .footer{
     padding: 40px 80px;
     display: flex;
+    flex-direction: column;
+    background-color: #093A7A;
+}
+
+.footer__links{
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.footer__link{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130%;
+    line-height: 19px;
+    color: #CACACA;
+}
+
+.footer__line{
+    border: 1px solid rgba(255, 255, 255, 0.16);;
+    background-color: rgba(255, 255, 255, 0.16);
+}
+
+.footer__header{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
 }
