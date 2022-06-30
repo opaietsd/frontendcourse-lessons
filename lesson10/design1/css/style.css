@@ -206,4 +206,41 @@ body{
     font-weight: 600;
     font-size: 24px;
     line-height: 33px;
+    color: #FFFFFF;
+}
+
+.footer__country{
+     display: flex;
+     flex-direction: column;
+     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #E6E5E5;
+}
+
+.footer__cities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #CACACA;
+}
+
+.footer__copyrightinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #CACACA;
 }
