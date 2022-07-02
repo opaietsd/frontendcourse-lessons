@@ -1,0 +1,32 @@
+body{
+    margin: 0%;
+}
+
+.squid-game__main{ 
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    
+}
+
+.squid-game__nav{
+   height: 120px;
+   padding-top: 20px;
+   padding-left: 10%;
+   padding-right: 10%;
+   display: grid;
+   grid-template-columns: 20% 30% 10%;
+   grid-column-gap: 20%;
+   align-items: center;
+   justify-content: center;
+}
+
+.squid-game__nav img:first-child{
+    margin-top: 30px;
+    align-self: flex-start;
+}
+
+.squid-game__nav img:last-child{
+   
+    justify-self:end ;
+}
