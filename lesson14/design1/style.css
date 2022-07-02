@@ -85,3 +85,27 @@ body{
 .main__left-small-imgs img:last-child{
     align-self: flex-start;
 }
+
+.img__left-doll img{
+    position: absolute;
+    width: 132px;
+    height: 132px;
+    left: 32%;
+    top: 34%;}
+
+.img__left-doll img:last-child{
+    width: 99.33px;
+    height: 99.33px;
+    left: 33%;
+    top: 35%;
+}
+
+.img__left-mask{
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    left: 20%;
+    top: 60%;
+    padding: 9px 9px 0px 9px;
+    border: 6px solid #E93E7D;
+}
