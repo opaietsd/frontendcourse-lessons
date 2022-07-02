@@ -2,10 +2,14 @@ body{
     margin: 0%;
 }
 
-.squid-game__main{ 
+.squid-game{ 
     width: 100vw;
     height: 100vh;
     background-color: black;
+    background-image: url(./imgs/background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65vh;
     
 }
 
@@ -27,6 +31,57 @@ body{
 }
 
 .squid-game__nav img:last-child{
-   
     justify-self:end ;
+}
+
+.squid-game__main{
+    display: grid;
+    padding: 0px 5%;
+    grid-template-columns: 35% 35%;
+    grid-column-gap: 40%;
+}
+
+.main__left{
+    height: 800px;
+    display: grid;
+    grid-template-rows: repeat(4,25%);
+    grid-template-columns: 10% 90%;
+    
+}
+
+.main__left h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    background: linear-gradient(265.95deg, #FFFFFF -15.55%, #E93E7D 123.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    align-self: flex-end;
+}
+
+.main__left p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+
+.main__left-small-imgs{
+    display: grid;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__left-small-imgs img:last-child{
+    align-self: flex-start;
 }
