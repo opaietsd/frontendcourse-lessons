@@ -1,0 +1,43 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.div2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.div3 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+@media screen and (max-width: 500px) {
+  .div1 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+
+  .div2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+
+  .div3 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}

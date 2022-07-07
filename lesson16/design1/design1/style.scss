@@ -1,0 +1,36 @@
+body{
+    display: flex;
+}
+
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+@media  screen and (max-width:500px){
+    .div1{
+        order: 3;
+    }
+
+    .div2{
+        order: 1;
+    }
+
+    .div3{
+        order: 2;
+    }
+    
+}
