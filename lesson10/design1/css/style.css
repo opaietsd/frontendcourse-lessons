@@ -287,6 +287,71 @@ body{
     line-height: 40px;
 }
 
+.inspiration{
+    margin: 100px;
+}
+
+.inspiration > h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #323232;
+}
+
+.inspiration__imgs{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    gap: 20px;
+}
+
+.inspiration__imgs > img{
+    width: 100%;
+}
+
+.additional{
+    margin: 100px;
+}
+.additional > h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #323232;
+}
+
+.additional__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional__text{
+    width: 45%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #606060;
+}
+
+.additional__text > button{
+    width: 290px;
+    height: 60px;
+    border: none;
+    background-color: #FFC839;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.16);
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    color: #000000;
+}
+
 /* the end of styling part */
 .footer{
     padding: 40px 80px;
