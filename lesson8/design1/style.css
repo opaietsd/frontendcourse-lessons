@@ -209,8 +209,60 @@ header {
     line-height: 24px;
     color: #FFFFFF;
 }
+ /* style for 3rd part of a site */
+
+ .effortles-validation{
+    width: 90%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .effortles-validation__box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+ .effortles-validation__box > h1, h2, p:first-child{
+    align-self: flex-start;
+ }
+
+ .effortles-validation__box > h1{ 
+    margin-top: -15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+ }
+
+ .effortles-validation__box > h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+ }
+
+ .effortles-validation__box > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+ }
 
 
+ .effortles-validation__img{
+    width: 45%;
+ }
+/* the end for the 3rd part of a site */
 
 footer{
     width: 90%;
