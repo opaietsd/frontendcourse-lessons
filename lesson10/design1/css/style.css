@@ -229,6 +229,64 @@ body{
     top: 1596px;
 }
 
+.mobile-number{ 
+    height: 500px;
+    margin: 50px 100px;
+    padding: 0px 200px;
+    background-color: #fff5da;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mobile-number > h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #323232;
+}
+
+.mobile-number > h2{
+    margin-top: -15px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    color: #646464;
+}
+
+.mobile-number__input{
+    height: 69px;
+    width: 707px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+}
+
+.mobile-number__input > button{
+    width: 155px;
+    height: 61px;
+    background-color: #FFC839;
+    border: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+}
+
 /* the end of styling part */
 .footer{
     padding: 40px 80px;
