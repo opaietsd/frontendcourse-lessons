@@ -1,0 +1,135 @@
+body{
+    margin: 0%;
+}
+
+.site{
+    width: 89vw;
+    height: 81vh;
+    padding: 5%;
+    display: flex;
+    background-color: rgb(2, 2, 52);
+    color: white;
+    flex-direction: column;
+
+    &__main__first-part{
+        display: flex;
+        height: 50%;
+
+        & > h2{
+            width: 30%;
+            font-family: 'Century Gothic';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 42px;
+            letter-spacing: -0.02em;
+        }
+
+        &__supply{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start ;
+            align-self: flex-end;
+            font-family: 'Century Gothic';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 35px;
+            letter-spacing: -0.02em;
+           
+            & > span{
+               align-self: center;
+               font-size: 80px;
+               line-height: 80px;
+               color: #FFD100;
+            }
+
+            & > p:last-child{
+                align-self: flex-end;
+            }
+        }    
+    }
+
+    &__main__second-part{
+        height: 40%;
+        display: flex;
+        justify-content: flex-start;
+
+        &__premined{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Century Gothic';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.02em;
+
+            & > span{
+                align-self: center;
+                font-size: 30px;
+                line-height: 15px;
+                color: #2278D4;
+            }
+
+            & > p:last-child{
+                align-self: flex-end;
+            }
+
+        }
+
+        & > div:nth-child(2) {
+            width: 60%;
+        }
+
+        &__daily{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            font-family: 'Century Gothic';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.02em;
+
+            & > span{
+                align-self: center;
+                font-size: 30px;
+                line-height: 15px;
+                color: #E20613;
+            }
+
+            & > p:last-child{
+                align-self: flex-end;
+            }
+        }
+    }
+
+
+
+}
+
+/*
+@media only screen and(max-width: 400px) {
+    .site{
+        padding: 4%;
+
+        &__main{
+          flex-direction: column;
+
+            & > h2{
+                width: 70%;
+                height: 15%;
+            }
+
+            &__supply{
+                ;
+            }
+
+        }
+    }
+}
