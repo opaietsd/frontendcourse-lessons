@@ -170,6 +170,189 @@ body{
     background-color: #FFFFFF;
 }
 
+/* Finishing the site(styling part) */
+.reasons{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reasons__question{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.reasons__question > h1{
+    margin-top: -100px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #323232;
+}
+
+.reasons__description{
+    display: flex;
+    gap: 40px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 40px;
+    color: #4A4A4A;
+}
+
+.reasons__description > p{
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.reasons__imgs{
+    width: 30%;
+}
+
+.reasons__imgs >img:first-child{
+    position: absolute;
+    width: 477px;
+    height: 431px;
+    left: 842px;
+    top: 1656px;
+}
+
+.reasons__imgs >img:last-child{
+    position: absolute;
+    width: 425px;
+    height: 555px;
+    left: 916px;
+    top: 1596px;
+}
+
+.mobile-number{ 
+    height: 500px;
+    margin: 50px 100px;
+    padding: 0px 200px;
+    background-color: #fff5da;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mobile-number > h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #323232;
+}
+
+.mobile-number > h2{
+    margin-top: -15px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    color: #646464;
+}
+
+.mobile-number__input{
+    height: 69px;
+    width: 707px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+}
+
+.mobile-number__input > button{
+    width: 155px;
+    height: 61px;
+    background-color: #FFC839;
+    border: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+}
+
+.inspiration{
+    margin: 100px;
+}
+
+.inspiration > h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #323232;
+}
+
+.inspiration__imgs{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    gap: 20px;
+}
+
+.inspiration__imgs > img{
+    width: 100%;
+}
+
+.additional{
+    margin: 100px;
+}
+.additional > h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #323232;
+}
+
+.additional__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional__text{
+    width: 45%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #606060;
+}
+
+.additional__text > button{
+    width: 290px;
+    height: 60px;
+    border: none;
+    background-color: #FFC839;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.16);
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    color: #000000;
+}
+
+/* the end of styling part */
 .footer{
     padding: 40px 80px;
     display: flex;
