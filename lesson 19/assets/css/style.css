@@ -1,0 +1,147 @@
+body {
+  margin: 0%;
+}
+
+.site {
+  width: 89vw;
+  height: 79vh;
+  padding: 5%;
+  overflow-y: hidden;
+  background-color: rgb(0, 0, 22);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(./assets/imgs/bg.svg);
+}
+.site__nav {
+  height: 10%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site__nav ul {
+  width: 40%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.site__nav__buttons {
+  justify-self: flex-end;
+  width: 17%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 20%;
+}
+.site__nav__buttons button {
+  border: none;
+  background-color: rgb(0, 0, 22);
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.site__nav__buttons button:last-child {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #22A75D;
+  border-radius: 30px;
+}
+.site__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.site__main__text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+.site__main__text h1 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+.site__main__text p {
+  font-family: "Century Gothic";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 16px;
+  color: #DDE2FF;
+  opacity: 0.6;
+}
+.site__main__text p:first-child {
+  font-weight: 700;
+  font-size: 16px;
+  color: linear-gradient(#2B3087 0%, #00B4EC 81.99%), #FFD100;
+}
+.site__main__text button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background: #22A75D;
+  -webkit-box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+          box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 500px) {
+  .site {
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .site__main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .site__main__text h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .site__main__text p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .site__main__img {
+    margin-top: -100px;
+    margin-left: -200px;
+    width: 50px;
+  }
+}
