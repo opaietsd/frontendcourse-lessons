@@ -11,6 +11,11 @@ body{
     color: white;
     flex-direction: column;
 
+    &__navigation{
+        display: flex;
+        justify-content: space-around;
+    }
+
     &__main__first-part{
         display: flex;
         height: 50%;
@@ -131,5 +136,5 @@ body{
             }
 
         }
-    }
-}
+    }}
+*/

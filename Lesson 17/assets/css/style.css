@@ -16,6 +16,13 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.site__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 .site__main__first-part {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,18 +143,23 @@ body {
       align-self: flex-end;
 }
 
-@media only screen and (max-width: 400px) {
-  .site {
-    padding: 4%;
-  }
-  .site__main {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .site__main > h2 {
-    width: 70%;
-    height: 15%;
-  }
-}
+/*
+@media only screen and(max-width: 400px) {
+    .site{
+        padding: 4%;
+
+        &__main{
+          flex-direction: column;
+
+            & > h2{
+                width: 70%;
+                height: 15%;
+            }
+
+            &__supply{
+                ;
+            }
+
+        }
+    }}
+*/
