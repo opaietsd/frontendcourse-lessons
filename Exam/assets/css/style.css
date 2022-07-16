@@ -230,3 +230,118 @@
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
+
+.spain__first-part {
+  width: 80vw;
+  height: 44vh;
+  background-image: url(/Exam/assets/imgs/trirdbackground.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10% 10%;
+}
+.spain__first-part__box {
+  width: 38%;
+  height: 290px;
+  background: #232323;
+  opacity: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 40px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+.spain__first-part__box p:first-child {
+  font-size: 20px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.5px;
+  color: #E8E8E8;
+}
+.spain__first-part__box p:last-child {
+  font-size: 16px;
+  line-height: 26px;
+  color: #E8E8E8;
+}
+.spain__first-part__box h3 {
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.spain__first-part__box button {
+  width: 230px;
+  height: 65px;
+  border: none;
+  background-color: #496BFE;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.spain__second-part {
+  width: 80vw;
+  height: 44vh;
+  background-image: url(/Exam/assets/imgs/fourthbackground.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10% 10%;
+}
+.spain__second-part__box {
+  width: 38%;
+  height: 290px;
+  background: #232323;
+  opacity: 0.9;
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 40px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+.spain__second-part__box p:first-child {
+  font-size: 20px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.5px;
+  color: #E8E8E8;
+}
+.spain__second-part__box p:last-child {
+  font-size: 16px;
+  line-height: 26px;
+  color: #E8E8E8;
+}
+.spain__second-part__box h3 {
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.spain__second-part__box button {
+  width: 230px;
+  height: 65px;
+  border: none;
+  background-color: #496BFE;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
