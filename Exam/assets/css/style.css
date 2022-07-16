@@ -49,20 +49,21 @@
   letter-spacing: 6.82px;
 }
 .header__input {
-  width: 40%;
+  width: 650px;
   height: 65px;
   background-color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 .header__input p {
+  width: 480px;
+  text-align: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
@@ -70,8 +71,7 @@
   color: #999999;
 }
 .header__input button {
-  -ms-grid-column-align: right;
-      justify-self: right;
+  justify-self: flex-end;
   width: 155px;
   height: 60px;
   border: none;
@@ -344,4 +344,67 @@
   line-height: 26px;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+}
+
+.response {
+  width: 100vw;
+  height: 80vh;
+  background-image: url(/Exam/assets/imgs/fifthbackground.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.response__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.response__box__text {
+  width: 50%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0% 3%;
+  background-color: #333333;
+  font-style: normal;
+  font-weight: 400;
+}
+.response__box__text p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #E8E8E8;
+}
+.response__box__text p:first-child {
+  font-size: 20px;
+  color: #FEFEFE;
+}
+.response__box__text p > span {
+  font-size: 36px;
+  line-height: 26px;
+  color: #5474FD;
 }
