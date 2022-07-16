@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/608577eae9.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/nav.js"></script>
 </head>
 <body>
     <div class="site">
@@ -33,9 +34,14 @@
                     expand_more
                     </span>
             </div>
+
+            <button class="mobile-nav-toggle" aria-controls="header__nav__list" aria-expanded="false">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+
             <nav class="header__nav">
                 <img src="./assets/imgs/Logo.svg" alt="Company's logo" width="200px"/>
-                <ul class="header__nav__list">
+                <ul id="header__nav__list" data-visible="false" class="header__nav__list">
                     <li><a href="" target=”_blank”>Who We Are</a></li>
                     <li><a href="" target=”_blank”>What We Do</a></li>
                     <li><a href="" target=”_blank”>Travel With Us</a></li>

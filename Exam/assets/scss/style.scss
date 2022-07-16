@@ -14,6 +14,10 @@
         opacity: 0.6;
         cursor: pointer;
     }
+
+    .mobile-nav-toggle{
+        display: none;
+    }
 }
 
 .header{
@@ -110,7 +114,7 @@
         align-items: center;
         background-color: #5474FD;
 
-        & ul {
+        &__list {
             width: 40%;
             display: flex;
             justify-content: space-between;
@@ -408,3 +412,226 @@
         color: #5474FD;
     }
 }
+
+@media screen and (max-width:400px) {
+
+    .site{
+        .mobile-nav-toggle{
+            display: block;
+            position: absolute;
+            z-index: 9999;
+            background: rgba(32, 128, 224, 0.951);
+            width: 40px;
+            height: 40px;
+            border: none;
+            top: 20px;
+            right: 2rem;
+        
+        }
+
+    }
+    .header{
+
+        &__main h1 {
+            font-size: 38px;
+         }
+    
+         &__main p {
+            margin-top: 10px;
+            font-size: 18px;
+         }
+
+         &__input{
+            flex-direction: row;
+            width: 22em;
+            height: 65px;
+
+            & button {
+                width: 120px;
+                padding: 0% 5px;
+                font-size: 10px;
+                margin-right: 3px;
+                }}
+
+         &__scroll{
+            margin-bottom: 7em;
+         }
+
+        &__nav{
+            position: fixed;
+            z-index: 1000;
+            
+            &__list { 
+                position: fixed; 
+                top: 1px;
+                width: 90%;
+                height: 100vh;
+                
+                align-items: center;
+                justify-content: center;  
+                flex-direction: column;
+
+                background-color: rgba(32, 128, 224, 0.951);
+                transform: translateX(100%);
+                transition: transform 350ms ease-out;
+            }
+        }
+}}
+
+.reason{
+
+      &__box{
+        flex-direction: row;
+
+        &__text{
+
+            & h2 {
+                font-size: 20px;
+                line-height: 20px;
+            }
+
+            & p {
+                font-size: 13px;
+                line-height: 20px;
+            }
+
+            & button {
+                width: 180px;
+                height: 60px;
+
+                font-size: 12px;
+                line-height: 26px;
+                
+            }
+        }
+
+        &__imgs{
+            margin-top: 160px;
+            z-index: 500;
+
+            & img:first-child {
+                align-self: flex-start;
+            }
+
+            & img:last-child {
+                 align-self: flex-end;
+            }
+        }
+
+    }
+
+    &__img{
+        z-index: 999;
+
+    }
+}
+
+.spain__first-part {
+    width: 100vw;
+    height: 44vh;
+    padding: 5%;
+
+    &__box {
+        width: 60%;
+        height: 190px;
+
+        & p:first-child {
+            font-size: 15px;
+        }
+
+        & p:last-child {
+            font-size: 10x;
+            line-height: 15px;
+            color: #E8E8E8;
+        }
+
+        & h3 {
+            font-size: 17px;
+            line-height: 26px;
+            text-transform: uppercase;
+        }
+
+        & button {
+            width: 130px;
+            height: 55px;
+            font-size: 10px;
+        }
+
+    }
+}
+
+.spain__second-part{
+    width: 100vw;
+    height: 44vh;
+    padding: 0%;
+
+    &__box {
+        width: 60%;
+        height: 190px;
+
+        & p:first-child {
+            font-size: 15px;
+        }
+
+        & p:last-child {
+            font-size: 10x;
+            line-height: 15px;
+            color: #E8E8E8;
+        }
+
+        & h3 {
+            font-size: 17px;
+            line-height: 26px;
+            text-transform: uppercase;
+        }
+
+        & button {
+            width: 130px;
+            height: 55px;
+            font-size: 10px;
+        }
+
+    }
+}
+
+.response {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    &__box{
+        flex-direction: column;
+        justify-content: center;
+
+        & img { 
+            align-self: center;
+
+        }
+        
+
+        &__text{
+            width: 80%;
+            height: 200px;
+            flex-direction: column;
+            background-color: transparent;
+
+
+            & p {
+                font-size: 10px;
+                line-height: 15px;
+            }
+
+            & p:first-child {
+                text-align: center;
+                font-size: 15px;
+                color: #FEFEFE;
+            }
+
+            & p > span {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
