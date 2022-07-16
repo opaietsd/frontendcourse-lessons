@@ -7,6 +7,10 @@
     color: white;
 }
 
+.site{
+    overflow-x: hidden;
+}
+
 .header{
      width: 100vw;
      height: 95vh;
@@ -113,4 +117,78 @@
         }
     }
 
+}
+
+.reason{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/Exam/assets/imgs/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__box {
+        height: 40%;
+        padding: 0% 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 5em;
+        
+
+        &__text{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            font-family: 'Aleo';
+            font-style: normal;
+            font-weight: 400;
+
+            & h2 {
+                font-size: 36px;
+                line-height: 26px;
+            }
+
+            & p {
+                font-family: 'Josefin Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: 1.6px;
+            }
+
+            & button {
+                width: 230px;
+                height: 65px;
+                border: none;
+                background-color: #496BFE;
+
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: 1.2px;
+                text-transform: uppercase;
+            }
+        }
+
+        &__imgs{
+            width: 25%;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+
+            & img:first-child {
+                align-self: flex-start;
+            }
+
+            & img:last-child {
+                 align-self: flex-end;
+            }
+        }
+    }
 }

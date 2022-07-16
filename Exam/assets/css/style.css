@@ -7,6 +7,10 @@
   color: white;
 }
 
+.site {
+  overflow-x: hidden;
+}
+
 .header {
   width: 100vw;
   height: 95vh;
@@ -136,4 +140,93 @@
   font-size: 14px;
   line-height: 26px;
   text-transform: uppercase;
+}
+
+.reason {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/Exam/assets/imgs/Rectangle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.reason__box {
+  height: 40%;
+  padding: 0% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 5em;
+}
+.reason__box__text {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+}
+.reason__box__text h2 {
+  font-size: 36px;
+  line-height: 26px;
+}
+.reason__box__text p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+}
+.reason__box__text button {
+  width: 230px;
+  height: 65px;
+  border: none;
+  background-color: #496BFE;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.reason__box__imgs {
+  width: 25%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.reason__box__imgs img:first-child {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+.reason__box__imgs img:last-child {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
