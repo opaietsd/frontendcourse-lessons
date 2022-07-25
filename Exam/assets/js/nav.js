@@ -1,4 +1,4 @@
-const siteNav = document.querySelector(".heade__nav__list");
+const siteNav = document.querySelector(".header__nav__list");
 const navToggle = document.querySelector(".mobile-nav-toggle");
 
 navToggle.addEventListener("click", () => {
