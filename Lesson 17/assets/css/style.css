@@ -4,17 +4,17 @@ body {
 
 .site {
   width: 89vw;
-  height: 81vh;
   padding: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: rgb(2, 2, 52);
+  background-color: #101b46;
   color: white;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  /* ______________The part of small boxes________________*/
 }
 .site__navigation {
   display: -webkit-box;
@@ -141,6 +141,110 @@ body {
 .site__main__second-part__daily > p:last-child {
   -ms-flex-item-align: end;
       align-self: flex-end;
+}
+.site__boxes {
+  margin-top: 11\`px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  gap: 10px;
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+}
+.site__boxes_containers {
+  width: 250px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(23, 27, 41, 0.462745098);
+  -webkit-backdrop-filter: blur 6px;
+          backdrop-filter: blur 6px;
+  border: none;
+  border-radius: 30px;
+}
+.site__boxes_containers_years {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 14px;
+  line-height: 34px;
+}
+.site__boxes_containers_info {
+  width: 70%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.site__boxes_containers_info h4 {
+  font-size: 18px;
+  line-height: 18px;
+}
+.site__boxes_containers_info p {
+  font-size: 17px;
+  line-height: 20px;
+  opacity: 0.7;
+}
+
+.green {
+  color: #22A75D;
+}
+.green span {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+          box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+}
+
+.yellow {
+  color: #FFD100;
+}
+.yellow span {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+          box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+}
+
+.blue {
+  color: #0F87CA;
+}
+.blue span {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-shadow: 0px 15px 25px rgba(15, 135, 202, 0.25);
+          box-shadow: 0px 15px 25px rgba(15, 135, 202, 0.25);
+}
+
+.red {
+  color: #E20613;
+}
+.red span {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-shadow: 0px 15px 25px rgba(226, 6, 19, 0.25);
+          box-shadow: 0px 15px 25px rgba(226, 6, 19, 0.25);
 }
 
 /*

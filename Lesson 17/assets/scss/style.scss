@@ -4,10 +4,9 @@ body{
 
 .site{
     width: 89vw;
-    height: 81vh;
     padding: 5%;
     display: flex;
-    background-color: rgb(2, 2, 52);
+    background-color: #161f3d;
     color: white;
     flex-direction: column;
 
@@ -55,6 +54,7 @@ body{
             }
         }    
     }
+
 
     &__main__second-part{
         height: 40%;
@@ -113,9 +113,98 @@ body{
             }
         }
     }
+      /* ______________The part of small boxes________________*/
+    &__boxes{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        gap: 10px;
+
+        font-family: 'Century Gothic';
+        font-style: normal;
+        font-weight: 700;
+       
+
+        &_containers{
+            width: 260px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            background-color:#171b2976;
+            backdrop-filter: blur (6px);
+            border: none;
+            border-radius: 30px;
+
+            &_years{
+                width: 40%;
+                display: flex;
+                justify-content: space-around;
+
+                font-size: 14px;
+                line-height: 34px;
+            }
+
+            &_info{
+                width: 70%;
+                align-self: flex-end;
+
+                & h4{
+                    font-size: 18px;
+                    line-height: 18px;
+                }
+
+                & p{
+                    font-size: 17px;
+                    line-height: 20px;
+                    opacity: 0.7;
+                }
+            }
+        }
+
+
+    }
 
 
 
+}
+
+.green{
+    color: #22A75D;
+
+    & span {
+        height: fit-content;
+        box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+    }
+}
+
+.yellow{
+    color: #FFD100 ;
+
+    & span {
+        height: fit-content;
+        box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+    }
+}
+
+.blue{
+   color: #0F87CA;
+
+   & span {
+    height: fit-content;
+    box-shadow: 0px 15px 25px rgba(15, 135, 202, 0.25);
+}
+}
+
+.red{
+    color: #E20613;
+
+    & span {
+        height: fit-content;
+        box-shadow: 0px 15px 25px rgba(226, 6, 19, 0.25);
+    }
 }
 
 /*
