@@ -46,6 +46,10 @@ function zero(){
 function delet(){
     calculatorScreen.innerText = " ";
 }
+
+function add(){
+    calculatorScreen.innerText = "+";
+}
 //calculatorButton.addEventlistener("click", () =>{
 //    calculatorScreen.innerText = "Daria"
 //} );
