@@ -7,17 +7,19 @@
     <title>BIO CWT</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css"/>
 </head>
 <body>
+
     <div class="site">
         <!--____________________Header____________________-->
         <header class="site__header">
             <nav class="site__header__nav">
                 <img src="./assets/imgs/logo.svg" alt="Company's logo"/>
-                <span></span>
+                <span class="material-symbols-outlined">drag_handle </span>
                 <ul>
                     <li><a href="" target="_blank">Gallery</a></li>
                     <li><a href="" target="_blank">Prices for services</a></li>
@@ -27,9 +29,9 @@
             </nav>
             <h1>Our work</h1>
            <div class="site__header__slick">
-                <img src="./assets/imgs/kitchen.svg" alt="Modern kitchen" width="40%"/>
-                <img src="./assets/imgs/kitchen.svg" alt="Modern kitchen" width="40%"/>
-                <img src="./assets/imgs/kitchen.svg" alt="Modern kitchen" width="40%"/>
+                <img src="./assets/imgs/kitchen.png?text=SLIDE+1" alt="Modern kitchen"/>
+                <img src="./assets/imgs/kitchen.png?text=SLIDE+2" alt="Modern kitchen"/>
+                <img src="./assets/imgs/kitchen.png?text=SLIDE+3" alt="Modern kitchen"/>
             </div>
         </header>
     <!--____________________First Section____________________-->
@@ -65,12 +67,64 @@
                 </div>
             </div>
         </section>
+    <!--____________________Second Section____________________-->
+        <section class="site__questions">
+            <h2>Any questions?</h2>
+            <div class="site__questions__container">
+            <form>
+            <input type="text" placeholder="Your name">
+            <input type="text" placeholder="Your telephone number">
+            <input type="text" placeholder="Your question">
+            <button type="submit">Send</button>
+          </form>
+          <div>
+            <p>Write to us and we will be sure to answer all your questions and give you a comprehensive consultation.</p>
+            <img src="./assets/imgs/brick.svg" alt="Big brick"/>
+          </div>
+            </div>
+        </section>
+    <!--____________________Third Section____________________-->
+        <section class="site__contacts">
+            <div class="site__contacts_info">
+                <h2>Contact</h2>
+                
+                    <div>
+                        <span class="material-symbols-outlined">phone_in_talk</span>
+                        <p>+420 000 000 000</p>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">location_on</span>
+                        <p>Na Plzeňce 1166/0
+                            150 00</p>
+                    </div>
+            </div>
+            <div class="site__contacts_map" id="map"></div>
+        </section>
     </main>
+    <!--____________________Footer____________________-->
+    <footer class="site__footer">
+        <div class="site__footer_logo">
+            <img src="./assets/imgs/logo.svg" alt="Company's logo"/>
+            <p>Privacy Policy</p>
+        </div>
+        <div class="site__footer_number">
+            <span class="material-symbols-outlined">phone_in_talk</span>
+            <p>+420 000 000 000</p>
+        </div>
+        <div class="site__footer_location">
+            <span class="material-symbols-outlined">location_on</span>
+            <p>Na Plzeňce 1166/0
+                150 00</p>
+        </div>
+    </footer>
     </div>
     
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script src="./assets/js/imgsSlick.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="./assets/slick/slick.min.js"></script>
+<script type="text/javascript" src="./assets/js/imgsSlick.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrNfH_pdlDc20GUzzVhOaAKaHRkoaqatI&callback=initMap&v=weekly"  defer></script>
+<script src="./assets/js/map.js"></script>
+
 </body>
 </html>
