@@ -19,20 +19,21 @@
         <header class="site__header">
             <nav class="site__header__nav">
                 <img src="./assets/imgs/logo.svg" alt="Company's logo"/>
-                <span class="material-symbols-outlined">drag_handle </span>
+                <span class="material-symbols-outlined menu">drag_handle </span>
                 <ul>
-                    <li><a href="" target="_blank">Gallery</a></li>
+                    <li><a href="" target="_blank" class="active">Gallery</a></li>
                     <li><a href="" target="_blank">Prices for services</a></li>
                     <li><a href="" target="_blank">About us</a></li>
                     <li><a href="" target="_blank">Contact</a></li>
                 </ul>
             </nav>
             <h1>Our work</h1>
+            <!--
            <div class="site__header__slick">
-                <img src="./assets/imgs/kitchen.png?text=SLIDE+1" alt="Modern kitchen"/>
-                <img src="./assets/imgs/kitchen.png?text=SLIDE+2" alt="Modern kitchen"/>
-                <img src="./assets/imgs/kitchen.png?text=SLIDE+3" alt="Modern kitchen"/>
-            </div>
+                <img src="./assets/imgs/kitchen.pngx20?text=SLIDE+1" alt="Modern kitchen"/>
+                <img src="./assets/imgs/kitchen.pngx20?text=SLIDE+2" alt="Modern kitchen"/>
+                <img src="./assets/imgs/kitchen.pngx20?text=SLIDE+3" alt="Modern kitchen"/>
+            </div> -->
         </header>
     <!--____________________First Section____________________-->
     <main>
@@ -40,7 +41,7 @@
             <h2>THE WOOD WE WORK WITH</h2>
             <div class="site__section__wood_boxes">
                 <div>
-                    <img src="./assets/imgs/oak.svg" alt="Wood"/>
+                    <img src="./assets/imgs/oak.png" alt="Wood"/>
                     <h3>Oak</h3>
                     <ul>
                         <li>Durability</li>
@@ -50,7 +51,7 @@
                     </ul>
                 </div>
                 <div>
-                    <img src="./assets/imgs/buk.svg" alt="Wood"/>
+                    <img src="./assets/imgs/buk.png" alt="Wood"/>
                     <h3>Buk</h3>
                     <ul>
                         <li>Durability</li>
@@ -58,7 +59,7 @@
                     </ul>
                 </div>
                 <div>
-                    <img src="./assets/imgs/ash.svg" alt="Wood">
+                    <img src="./assets/imgs/ash.png" alt="Wood">
                     <h3>Ash</h3>
                     <ul>
                         <li>Durability</li>
@@ -72,10 +73,10 @@
             <h2>Any questions?</h2>
             <div class="site__questions__container">
             <form>
-            <input type="text" placeholder="Your name">
-            <input type="text" placeholder="Your telephone number">
-            <input type="text" placeholder="Your question">
-            <button type="submit">Send</button>
+            <input type="text" placeholder="Your name" id="name" name="userName">
+            <input type="tel" placeholder="Your telephone number" id="tel" name="phoneNumber">
+            <input type="text" placeholder="Your question" id="quetion" name="question">
+            <button type="submit" id="save" onclick="newUser()">Send</button>
           </form>
           <div>
             <p>Write to us and we will be sure to answer all your questions and give you a comprehensive consultation.</p>
@@ -124,7 +125,8 @@
 <script type="text/javascript" src="./assets/slick/slick.min.js"></script>
 <script type="text/javascript" src="./assets/js/imgsSlick.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrNfH_pdlDc20GUzzVhOaAKaHRkoaqatI&callback=initMap&v=weekly"  defer></script>
-<script src="./assets/js/map.js"></script>
+<script type="text/javascript" src="./assets/js/map.js"></script>
+<script type="text/javascript" src="./assets/js/form.js"></script>
 
 </body>
 </html>

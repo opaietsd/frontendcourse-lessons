@@ -1,6 +1,6 @@
 body {
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
   overflow-x: hidden;
 }
 
@@ -168,6 +168,8 @@ body {
           align-items: center;
 }
 .site__questions h2 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   width: 50%;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -348,4 +350,75 @@ body {
 .site__footer_location span {
   font-size: 50px;
   margin-right: 10px;
+}
+.site .menu {
+  display: none;
+}
+.site .active {
+  color: #A3B8D7;
+}
+
+@media screen and (max-width: 425px) {
+  .site {
+    overflow-x: hidden;
+  }
+  .site__header__nav {
+    height: 100px;
+    border-radius: 0% 0% 30px 30px;
+  }
+  .site__header__nav img {
+    width: 100px;
+  }
+  .site__header__nav ul {
+    display: none;
+  }
+  .site__header h1 {
+    margin-left: 5%;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-size: 30px;
+  }
+  .site__section__wood h2 {
+    margin-left: 5%;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-size: 30px;
+  }
+  .site__section__wood_boxes {
+    overflow-y: scroll;
+  }
+  .site__section__wood_boxes div {
+    width: 70%;
+  }
+  .site__section__wood_boxes div img {
+    width: 90px;
+  }
+  .site__section__wood_boxes div h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .site__section__wood_boxes div ul {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .site__questions {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .site__questions h2 {
+    font-size: 30px;
+  }
+  .site__questions__container {
+    width: 100%;
+  }
+  .site__questions__container form input {
+    width: 290px;
+  }
+  .site .menu {
+    display: block;
+    font-size: 50px;
+    color: white;
+  }
 }

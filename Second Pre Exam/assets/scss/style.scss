@@ -1,6 +1,6 @@
 body{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     overflow-x: hidden;
 }
 
@@ -139,7 +139,8 @@ body{
             align-items: center;
 
             & h2{
-                width: 50%;
+            align-self: flex-end;
+            width: 50%;
             font-family: 'Roboto', sans-serif;
             font-style: normal;
             font-weight: 500;
@@ -312,5 +313,98 @@ body{
         }
 
      }
+
+     .menu{
+        display: none;
+    }
+
+    .active{
+        color: #A3B8D7;
+    }
+
+}
+
+//______________Mobile Version_______________
+@media screen and (max-width: 425px) {
+    .site{
+    overflow-x: hidden;
+    //______________Header_______________
+        &__header{
+
+            &__nav{
+                height: 100px;
+                border-radius: 0% 0% 30px 30px;
+    
+                & img{
+                    width: 100px;
+                }
+
+                & ul{
+                    display: none;
+                }
+            }
+
+            & h1{
+                margin-left: 5%;
+                align-self: flex-start;
+                font-size: 30px;
+            }
+        }
+    //______________First Section_______________   
+        &__section__wood{
+
+            & h2{
+                margin-left: 5%;
+                align-self: flex-start;
+                font-size: 30px;
+            }
+
+            &_boxes{
+                overflow-y: scroll;
+
+                & div{
+                    width: 70%;
+
+                    & img{
+                        width: 90px;
+                    }
+                    & h3{
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                    & ul{
+                        font-size: 15px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+    //______________Second Section_______________   
+    &__questions{
+        flex-direction: row;
+
+        & h2{
+            font-size: 30px;
+        }
+
+        &__container{
+            width: 100%;
+
+            & form{
+                
+                & input{
+                    width: 290px;
+                }
+            }
+        }
+    }
+
+
+        .menu{
+            display: block;
+            font-size: 50px;
+            color: white;
+        }  
+    }
 
 }
