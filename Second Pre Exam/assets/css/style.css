@@ -74,12 +74,16 @@ body {
   color: #F5F5F5;
 }
 .site__header__slick {
+  width: 55%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.site__header__slick-item {
+  width: 100%;
 }
 .site__section__wood {
   width: 100%;
@@ -357,7 +361,15 @@ body {
   color: #A3B8D7;
 }
 
-@media screen and (max-width: 425px) {
+.slick-prev {
+  background: url(./assets/imgs/arrowRight.png);
+}
+
+.slick-next {
+  background: url(./assets/imgs/arrowLeft.png);
+}
+
+@media screen and (max-width: 426px) {
   .site {
     overflow-x: hidden;
   }
@@ -376,6 +388,12 @@ body {
     -ms-flex-item-align: start;
         align-self: flex-start;
     font-size: 30px;
+  }
+  .site__header__slick {
+    width: 80%;
+  }
+  .site__header__slick-item {
+    width: 30%;
   }
   .site__section__wood h2 {
     margin-left: 5%;
