@@ -35,9 +35,10 @@ body{
             justify-content: space-between;
             list-style: url("./assets/imgs/EllipseBlank.svg");
             
-            & li{
+            & li, a{
                 font-family: 'Source Sans Pro';
                 font-style: normal;
+                text-decoration: none;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 18px;
@@ -304,7 +305,6 @@ body{
                      'wght' 400,
                      'GRAD' 0,
                      'opsz' 48
-
                 }
 
             }
@@ -349,7 +349,7 @@ body{
         display: flex;
         justify-content: space-around;
 
-        &_box{
+        &_box {
             width: 25%;
             background-color: #FFFFFF;
             font-family: 'Montserrat';
@@ -406,10 +406,218 @@ body{
 
 }
 
-.section__gallery{
-    display: none;
-}
+//--------------------------THIRD SECTION---------------------------->
 
+.section__gallery{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    &__name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+
+        & h2{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 54px;
+            letter-spacing: 0.1em;
+            color: #2C4058;;
+        }
+    }
+
+    &__box{
+        width: 79%;
+        display: flex;
+        gap: 5px;
+
+        & div:nth-child(2){
+            & img{
+                margin: 2px;
+            }
+        }
+    }
+
+    & button{
+        width: 190px;
+        height: 50px;
+        border: 1px solid #2C4058;
+        background-color: transparent; 
+        
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+    }
+
+    & button:hover{
+        cursor: pointer;
+        background-color: #5e75926f;
+        border: 1px solid #2C4058;
+        color: #2C4058;
+    }
+
+}
+//--------------------------FOOTER---------------------------->
 .footer{
-    display: none;
+    display: flex;
+    flex-direction: column;
+
+    &__map{
+        width: 100%;
+        height: 600px;
+        margin-top: 50px;
+
+    }
+
+    &__contacts{
+        position: absolute;
+        left: 415px;
+        top: 3642px;
+        width: 750px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #FFFFFF;
+
+        &__name{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+    
+            & h2{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 44px;
+                line-height: 54px;
+                letter-spacing: 0.1em;
+                color: #2C4058;;
+            }
+        }
+
+        &_container{
+            width: 100%;
+            display: flex;
+
+            & ul{
+                padding: 0% 5% 0% 10%;
+                width: 50%;
+                list-style: none;
+
+                & li{
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+
+                    font-family: 'Montserrat';
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+
+                    & span{
+                        margin-right: 15px;
+                        color: #7E5AFF;
+                        
+                     font-variation-settings:
+                     'FILL' 1,
+                     'wght' 400,
+                     'GRAD' 0,
+                     'opsz' 48;
+                    }
+                }
+
+            }
+
+            & form{
+                width: 50%;
+                padding: 0% 10% 0% 0%;
+                display: flex;
+                flex-direction: column;
+
+                & input{
+                    width: 310px;
+                    height: 40px;
+                    margin-top: 20px;
+                    border: none;
+                    border-bottom: 1px solid #2C4058;
+
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 27px;
+                }
+
+                & button{
+                    align-self: flex-end;
+                    margin-top: 20px;
+                    width: 140px;
+                    height: 50px;
+                    border: 1px solid #2C4058;
+                    background-color: transparent; 
+                    
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #000000;
+                }
+            
+                & button:hover{
+                    cursor: pointer;
+                    background-color: #5e75926f;
+                    border: 1px solid #2C4058;
+                    color: #2C4058;
+                }
+            }
+        }
+
+    }
+
+    &__socials{
+        width: 100%;
+        height: 525px;
+        background-image: linear-gradient(to right top, #55B7FF 16.9%, #7E5AFF 83.27%), url("./assets/imgs/backgroundimageOne.png");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_conteiner{
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+
+            & .footer_logo{
+                & p{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #FFFFFF;
+                }
+            }
+
+            & .socials{
+                width: 20%;
+                margin-top: 20px;
+                margin-right: -30px;
+                display: flex;
+                justify-content: space-between;
+    
+                & img:hover{
+                    background-color: #9377f8c0;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+
 }
