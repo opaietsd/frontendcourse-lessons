@@ -3,11 +3,11 @@ body{
     margin: 0%;
     list-style: none;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 .site{
     width: 100vw;
-    overflow-x: hidden;
 }
 //--------------------------HEADER---------------------------->
 .header{
@@ -16,11 +16,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right top, #55B7FF 16.9%, #7E5AFF 83.27%),
+    background-image: linear-gradient(to right top, #55b8ff96 16.9%, #7e5affb0 83.27%),
     url("./assets/imgs/backgroundimageOne.png");
-
-   // background-image: url(./assets/imgs/backgroundimageOne.png);
-    //opacity: 0.06;
 
     &__nav{
         height: 150px;
@@ -33,7 +30,7 @@ body{
             width: 40%;
             display: flex;
             justify-content: space-between;
-            list-style: url("./assets/imgs/EllipseBlank.svg");
+            list-style: none;
             
             & li, a{
                 font-family: 'Source Sans Pro';

@@ -6,9 +6,13 @@ function initMap() {
       zoom: 11,
       center: brooklyn,
     });
+
+    const image = {url:'./assets/imgs/pin.png'};
+
     const marker = new google.maps.Marker({
       position: brooklyn,
       map: map,
+      icon: image
     });
   }
   
